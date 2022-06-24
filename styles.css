@@ -12,6 +12,28 @@ img {
   height: auto;
 }
 
+.pictures .text {
+  padding: 1em 0;
+  font-size: 36px;
+  font-color: #1f2937;
+
+  text-align: center;
+}
+.picture_cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  text-align: center;
+  padding: 1em 0 5em;
+}
+
+.card img {
+  border: 5px solid #3882f6;
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -72,11 +94,72 @@ footer {
   color: #f9faf8;
 }
 
-.topbutton{
-    background-color: #3882F6;
+.topbutton {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 8px;
+  width: 7em;
+  padding: 7px 1em;
+}
+
+.quotetext {
+  font-weight: lighter;
+  font-size: 36px;
+  font-style: italic;
+}
+.quoteauthor {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 200px 256px 128px;
+}
+
+.calltoaction {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 5em 10em;
+}
+
+.modal {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 1000px;
+  padding: 2em 5em;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .header {
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 1.5em;
+}
+
+.container .text {
+  font-weight: lighter;
+  color: #f9faf8;
+  font-size: 1.5em;
+}
+
+.signup {
+    background: none;
+    border: 2px solid white;
+    width: 10em;
     color: #f9faf8;
-    border: none;
-    border-radius: 8px;
-    width: 7em;
-    padding: 7px 1em;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20%;
 }
