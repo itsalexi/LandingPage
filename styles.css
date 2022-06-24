@@ -71,3 +71,12 @@ footer {
   gap: 16px;
   color: #f9faf8;
 }
+
+.topbutton{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    width: 7em;
+    padding: 7px 1em;
+}
